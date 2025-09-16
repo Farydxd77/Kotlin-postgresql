@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.postgresqlbasico"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.postgresqlbasico"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -49,7 +49,7 @@ dependencies {
     //PostgreSQL
     implementation(libs.postgresql)
     // Libreria Pcs (utilidades)
-    implementation(libs.libreria.pcs)
+//    implementation(libs.libreria.pcs)
 
 
     testImplementation(libs.junit)

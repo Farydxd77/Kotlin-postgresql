@@ -25,7 +25,7 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 # Conector JDBC para PostgreSQL
 postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresqlVersion" }
 # Libreria de utilidades
-libreria-pcs = { module = "com.github.programadorcscs:LibreriaPcs", version.ref = "libpcs" }
+#libreria-pcs = { module = "com.github.programadorcscs:LibreriaPcs", version.ref = "libpcs" }
 
 
 [plugins]
