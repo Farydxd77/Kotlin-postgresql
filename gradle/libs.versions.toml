@@ -1,5 +1,5 @@
 [versions]
-agp = "8.10.0"
+agp = "8.10.1"
 kotlin = "2.0.21"
 coreKtx = "1.17.0"
 junit = "4.13.2"
@@ -9,7 +9,7 @@ appcompat = "1.7.1"
 material = "1.13.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
-postgresqlVersion = "42.2.9"
+postgresqlVersion = "42.2.18"
 libpcs = "1.0.4"
 
 [libraries]

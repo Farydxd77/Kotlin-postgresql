@@ -5,11 +5,10 @@ import java.util.Properties
 
 object PostgresqlConexion {
     fun getConexion(): Connection {
-        val url = "jdbc:postgresql://10.0.2.2:5432/tienda-emprendedor"
-        val props = Properties()
-        props.setProperty("user", "postgres")
-        props.setProperty("password", "123456")
-        props.setProperty("ssl", "false")
-        return DriverManager.getConnection(url, props)
+        return DriverManager.getConnection(
+            "jdbc:postgresql://10.0.2.2:5432/tienda-emprendedor",
+            "postgres",
+            ""  // Sin contraseña
+        )
     }
 }
